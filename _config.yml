@@ -29,6 +29,12 @@ github_username:  George-Wartalion
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+minimal_mistakes_skin: "contrast"
+words_per_minute: 225
+search: true
+og_image: \assets\images\Signiture_None.png
+logo: \assets\images\Signiture_None.png     
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
