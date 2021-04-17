@@ -30,12 +30,12 @@ masthead_title           : "George Wartalion"
 
 words_per_minute         : 200
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : 6LdKy60aAAAAALTaEiXEEsynB0-4xVcvXDMe2wcI
+  secret                 : 6LdKy60aAAAAANp7hF01v-ikLSSWo9UPmprvbmnn
 search                   : true
 search_full_content      : true
 # SEO Related
-google_site_verification :
+google_site_verification : google158634791108fc01.html
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
