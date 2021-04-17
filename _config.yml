@@ -125,16 +125,16 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/george_wartalion/"
     - label: "Pinterest"
-      icon: "ffas fa-fw fa-link"
+      icon: "fab fa-pinterest"
       url: "https://pinterest.com/georgewartalion"
     - label: "Royal Road"
       icon: "fas fa-fw fa-link"
       url: "https://www.royalroad.com/profile/192014"
     - label: "Reddit"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-reddit"
       url: "https://www.reddit.com/user/George_Wartalion"
     - label: "YouTube"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-youtube"
       url: "https://www.youtube.com/channel/UC35v6iASVGSvR6EIZ-fkCog"
 
 
@@ -142,7 +142,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -168,8 +167,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -196,6 +193,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# collections:
+#   article:
+#     output: true
+#     permalink: /:collection/:path/
+#   blog:
+#     output: true
+#     permalink: /:collection/:path/
+#   review:
+#     output: true
+#     permalink: /:collection/:path/
 
 # Sass/SCSS
 sass:
@@ -266,6 +273,30 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false
       share: true
       related: true
+  # _article
+  - scope:
+      path: ""
+      type: article
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _review
+  - scope:
+      path: ""
+      type: review
+    values:
+      layout: single
+      author_profile: false
+      share: true
