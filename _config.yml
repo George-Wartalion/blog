@@ -24,8 +24,8 @@ description              : "This blog is a collection of articles, posts and sho
 url                      : "https://george-wartalion.github.io"
 baseurl                  : "/blog"
 repository               : "George-Wartalion/blog"
-teaser                   : images\Signiture_None.png
-logo                     : images\Signiture_None.png
+teaser                   : images\ Signiture_None.png
+logo                     : images\ Signiture_None.png
 masthead_title           : "George Wartalion"
 
 words_per_minute         : 200
