@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # , "default", "air", "aqua", "dark", "dir
 locale                   : "en-US"
 title                    : "George Wartalion"
 title_separator          : "-"
-subtitle                 : "A master of failure"
+subtitle                 : "A master of mistakes"
 name                     : "George Wartalion"
 description              : "This blog is a collection of articles, posts and short reviews on the subject of writing, art, coding and game dev."
 url                      : "https://george-wartalion.github.io"
