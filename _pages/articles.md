@@ -1,12 +1,15 @@
 ---
 title: "Articles"
-layout: single
+layout: archive
 permalink: /articles/
 ---
 {% assign posts = site.posts %}
 
-{%- for post in posts -%}
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
     {%- if post.category == "Article" -%}
         {% include archive-single.html type=entries_layout %}
     {%- endif -%} 
-{%- endfor -%}
+  {% endfor %}
+</div>

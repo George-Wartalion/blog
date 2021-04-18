@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # , "default", "air", "aqua", "dark", "dir
 locale                   : "en-US"
 title                    : "George Wartalion"
 title_separator          : "-"
-subtitle                 : "A master of failuer"
+subtitle                 : "A master of failure"
 name                     : "George Wartalion"
 description              : "This blog is a collection of articles, posts and short reviews on the subject of writing, art, coding and game dev."
 url                      : "https://george-wartalion.github.io"
@@ -214,7 +214,7 @@ sass:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -222,7 +222,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
