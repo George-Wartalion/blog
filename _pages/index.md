@@ -1,6 +1,6 @@
 ---
 title: "Welcome to my blog of failures, mistakes and catastrophes."
-layout: splash
+layout: tags
 permalink: /
 header:
   overlay_color: "#000"
@@ -10,13 +10,16 @@ header:
 excerpt: "My aim is to help you avoid the same trapings that I encountered in the process of learning drawing, writing fiction and game dev."
 ---
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Here are some of my most recent posts" }}</h3>
+## Here are some of my most recent posts
 
 {% assign posts = site.posts %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts limit: 10 %}
+  {% for post in posts limit: 5 %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
+---
+
+## Posts sorted by tags

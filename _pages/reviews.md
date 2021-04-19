@@ -1,6 +1,6 @@
 ---
 title: "Reviews"
-layout: tags
+layout: splash
 permalink: /reviews/
 header:
   overlay_color: "#000"
@@ -10,18 +10,12 @@ header:
 excerpt: "As the name implies, this page is for reviews of a plethora of things."
 ---
 ## Recent Review
----
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts limit: 5 %}
+  {% for post in posts %}
     {% if post.category == "Review" %}
         {% include archive-single.html type=entries_layout %}
     {% endif %} 
   {% endfor %}
 </div>
-
----
-
-## Reviews sorted by tag
----

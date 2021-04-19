@@ -1,6 +1,6 @@
 ---
 title: "Blog Posts"
-layout: tags
+layout: splash
 permalink: /blog-posts/
 header:
   overlay_color: "#000"
@@ -10,7 +10,6 @@ header:
 excerpt: "This page is for my short form and more personal posts, in which I will show parts of my processes and other things that I couldn't put in an article."
 ---
 ## Recent Blog Posts
----
 
 {% assign posts = site.posts %}
 
@@ -22,7 +21,3 @@ excerpt: "This page is for my short form and more personal posts, in which I wil
     {% endif %} 
   {% endfor %}
 </div>
----
-
-## Blog Posts sorted by tag
----
