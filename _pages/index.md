@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: assets//images//Home_Page_Image_Smaller.png
+  overlay_image: assets//images//Home_Page_Image.png
   caption: "Photo credit: [**Dariusz Sankowski**](https://unsplash.com/@dariuszsankowski)"
 excerpt: "My aim is to help you avoid the same trapings that I encountered in the process of learning drawing, writing fiction and game dev."
 ---
